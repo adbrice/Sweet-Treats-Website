@@ -1,0 +1,295 @@
+/*  * {
+	border: solid black 1px;
+} */
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+  box-sizing: border-box;
+ }
+
+.clear::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+html {
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+    font-family: times, serif;
+
+}
+
+.wrapper {
+	height: 2068px;
+	width: 1200px;
+	margin: auto auto;
+}
+
+
+.logo{
+	height: 300px;
+	width: 300px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(../images/st_logo.png);
+	background-size: 100%;
+}
+
+.slogan {
+	text-align: center;
+	margin-top: -30px;
+	margin-bottom: 0px;
+	font-size: 0.85em;
+	padding-bottom: 20px;
+	opacity: 0.65;
+}
+
+.nav {
+	width: 100%;
+	padding: 0;
+	text-align: center;
+	margin: 10px 0 0 0;
+}
+
+.nav li {
+	display: inline-block;
+	padding: 0 3px;
+	width: 180px;
+
+
+}
+
+.nav a {
+	display: block;
+	padding: 10px 0;
+	font-size: 20px;
+	background: #b62b4d;
+	color: white;
+	text-decoration: none;		
+}
+
+
+.lgallery {
+	height: 600px;
+	width: 76%;	
+	margin: 20px auto  20px auto;
+	padding: 10px;
+	border: 3px solid #b62b4d;
+}
+
+  .lpic {
+	height: 100%;
+	background-size: cover;
+	background: url("../images/cupcakes.jpg") no-repeat center;
+} 
+
+.sgallery {
+	height: 200px;
+	width: 76%;
+	margin: auto auto;
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+	height: 200px;
+	width: 200px;
+	border: #b62b4d solid 3px;
+	display: inline-block;
+}	
+
+.box2,
+.box3,
+.box4 {
+	margin-left: 30px;
+}
+
+.pic1 {
+	background: url("../images/cupcakes.jpg") center no-repeat;
+	background-size: cover;
+	display: block;
+	height: 100%;
+	border: 10px white solid;
+}
+
+.pic2 {
+	background: url("../images/baby-cake.jpg") center no-repeat;
+	background-size: cover;
+	display: block;
+	height: 100%;
+	border: 10px white solid;
+}
+
+.pic3 {
+	background: url("../images/cookies.jpg") center no-repeat;
+	background-size: cover;
+	display: block;
+	height: 100%;
+	border: 10px white solid;
+}
+
+.pic4 {
+	background: url("../images/wedding-cake.jpg") center no-repeat;
+	background-size: cover;
+	display: block;
+	height: 100%;
+	border: 10px white solid;
+}
+
+.cta {
+ width: 77%;
+ margin: auto auto;
+ margin-top: 20px;
+ height: 487px;
+}
+
+.top-deco {
+ background-image: url(../images/top-deco.png);
+ background-repeat: no-repeat;
+ width: 217px;
+ height: 112px;
+ margin: 0 23px;
+ display: inline-block;
+ vertical-align: middle;
+}
+
+.top-stars-left {
+ background-image: url(../images/top-stars.png);
+ background-repeat: no-repeat;
+ height: 25px;
+ width: 323px;
+ display: inline-block;
+}
+
+.top-stars-right {
+ background: url(../images/top-stars.png);
+ background-repeat: no-repeat;
+ height: 25px;
+ width: 323px;
+ display: inline-block;
+}
+
+.cupcake-icon {
+	background-image: url(../images/cupcake-icon.png);
+	background-repeat: no-repeat;
+	width: 324px;
+	height: 204px;
+	display: inline-block;
+}
+
+.cookie-icon {
+	background-image: url(../images/cookie-icon.png);
+	background-repeat: no-repeat;
+	width: 181px;
+	height: 157px;
+	display: inline-block;
+	margin-left: 50px;
+
+}
+
+.cake-icon {
+	background-image: url(../images/cake-icon.png);
+	background-repeat: no-repeat;
+	width: 263px;
+	height: 198px;
+	display: inline-block;
+	margin-left: 93px;
+}
+
+
+.fb a,
+.tw a,
+.phone,
+.email {
+	text-decoration: none;
+	position: absolute;
+	color: black;
+	opacity: .55;
+	font-size: 16px;
+	margin-top: 10px;
+}
+
+.fb {
+	margin-left: 85px;
+}
+
+.tw {
+	margin-left: 180px;
+}
+
+.phone {
+	margin-left: 425px;
+}
+
+.email {
+	margin-left: 680px;
+}
+
+.bottom-stars-left {
+	background-image: url(../images/top-stars.png);
+	background-repeat: no-repeat;
+	height: 25px;
+	width: 323px;
+	display: inline-block;	
+}
+
+.bottom-deco {
+	background-image: url(../images/bottom-deco.png);
+	background-repeat: no-repeat;
+	width: 210px;
+	height: 163px;
+	margin: 126px 33px 0 27px;
+	display: inline-block;
+	vertical-align: middle;
+}	
+
+.bottom-stars-right {
+	background-image: url(../images/top-stars.png);
+	background-repeat: no-repeat;
+	height: 25px;
+	width: 323px;
+	display: inline-block;
+}
+
+.footer {
+	font-size: 12px;
+	color: black;
+	opacity: 0.55;
+}
+
+.lfooter {
+	float: left;
+	padding-left: 143px;
+}
+
+.rfooter {
+	float: right;
+	padding-right: 143px;
+}
+/*=========== HOVER ===========*/
+
+.nav a:hover {
+	background: white;
+	color: #b62b4d;
+	border: 2px solid #b62b4d;
+	padding: 7px 0;
+}
+
+.fb a:hover {
+	color: #3b5998;
+	opacity: 1;
+	font-weight: bolder;
+
+}
+
+.tw a:hover {
+	color: #8fe8e8;
+	opacity: 1;
+	font-weight: bolder;
+}
+
